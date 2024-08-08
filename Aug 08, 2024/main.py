@@ -57,6 +57,7 @@ a = 7
 a = str(a)
 
 print(a)
+
 print(type(a))
 
 print(a)
