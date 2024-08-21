@@ -2,11 +2,11 @@
 # Practice question -> You have to write a program which gets 5 inputs from user and print the odd and even numbers separately.
 
 
-# number1 = input("Enter nuber 1: ")
-# number2 = input("Enter nuber 2: ")
-# number3 = input("Enter nuber 3: ")
-# number4 = input("Enter nuber 4: ")
-# number5 = input("Enter nuber 5: ")
+# number1 = input("Enter nuber 1: ") # 2
+# number2 = input("Enter nuber 2: ") # 9
+# number3 = input("Enter nuber 3: ") # 10
+# number4 = input("Enter nuber 4: ") # 13
+# number5 = input("Enter nuber 5: ") # 1
 #
 # check = number1 % 2 == 0
 #
