@@ -90,11 +90,11 @@ else:
 
 
 # 3. Leap Year Checker
-# Write a Python program that determines whether a given year is a leap year. A year is a leap year if:
+# write a Python program to check if a given year is a leap year using the following logic:
 #
-# It is divisible by 4, but not divisible by 100, unless
-# It is also divisible by 400.
-# The program should take a year as input and return whether it is a leap year.
+# A year is a leap year if:
+# It is divisible by 4.
+# If it is divisible by 100, it must also be divisible by 400.
 #
 #
 
