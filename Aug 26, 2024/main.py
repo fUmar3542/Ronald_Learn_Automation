@@ -8,8 +8,8 @@ grade = ""
 
 try:
     score = int(score)
-    print("Something" + None)
     score = float(score)
+    print("Something" + None)
     # multiple lines
     # multiple lines
 except:
