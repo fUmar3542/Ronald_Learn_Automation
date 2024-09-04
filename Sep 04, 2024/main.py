@@ -2,6 +2,8 @@
 # String functions
 
 
+# *******************************************************************
+
 # Length
 
 # first_name = "Umar"
@@ -9,6 +11,8 @@
 # length = len(first_name)   # Argument passing to function
 #
 # print(length)
+
+# *******************************************************************
 
 # indexing
 
@@ -41,3 +45,22 @@ end_index = length - 1
 print(first_name[end_index])
 
 print(first_name[len(first_name) - 1])
+
+
+# *******************************************************************
+
+# Practice Questions
+
+# 1) Extract First, Last and Middle Characters:
+#
+# Given an input string from user, use indexing to extract the first, last and middle characters of the string. What are they?
+
+
+# 2) Compare Lengths:
+#
+# Given two strings s1 = "Data" and s2 = "Science", compare their lengths and print which one is longer.
+
+
+# 3) Check Empty String:
+#
+# Write a Python function that checks if a given string is empty or not by evaluating its length.
