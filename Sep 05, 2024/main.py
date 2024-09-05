@@ -32,12 +32,17 @@ else:
 
 
 # ***********************************************************
+# Practice Questions
 
-# not operator
-# upper
-# lower
-# strip -> rm white spaces
-# replace
-# split
-# concatenation
-# formatting ->f notation
+# 1) Write a program that takes a user's input and prints the
+# first 5 characters of the string. Then, print the last 3 characters using slicing.
+
+# 2) Modify the above program to print every second character
+# from index 2 to 8 in the string name = "Programming".
+
+
+# 3) Ask the user for their email. Check if it contains both "@" and "."
+# and print "Valid email" if both are present, otherwise print "Invalid email."
+
+
+# ***********************************************************
