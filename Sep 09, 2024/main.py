@@ -73,3 +73,22 @@ import random
 
 print(math.sqrt(4))
 print(math.ceil(3.1))
+
+
+# ************************************************************
+# Practice Questions
+
+# 1) Write a Python program that checks whether a given string
+# is a palindrome (reads the same forward and backward).
+
+
+# 2) Write a function that removes leading and trailing whitespaces
+# from a string. Then, use a statement to check if the
+# length of the trimmed string is greater than 10 characters.
+
+
+# 3) Write a function that converts a string to uppercase if its
+# length is less than 5 characters, otherwise convert it to lowercase.
+
+
+# 4) Write a function that removes duplicate characters from a string.
