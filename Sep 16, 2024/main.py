@@ -91,14 +91,45 @@ numbers.insert(2, 5)
 print(numbers)
 
 
+#####################################################
+
+# Practice Questions
+
+# 1) Create a 2-dimensional list where each inner list contains
+# the name of an item, its quantity, and its price. For example:
+
+# inventory = [
+#     ["Item A", 20, 15.5],
+#     ["Item B", 35, 25.0]
+# ]
+
+# Use the append method to add a new item to the inventory.
+# Use the insert method to insert the item after first item.
+# Use a conditional statement to check if the total quantity of items
+# in the inventory is greater than 100. Print "Inventory is sufficient" if true, otherwise print "Inventory is low."
+
+# ------------------------------------------------------------
+
+# 2) Create a 2-dimensional list where each inner list contains
+# the day of the week and a list of events scheduled for that day. For example:
+
+# schedule = [
+#     ["Monday", ["Meeting", "Workshop"]],
+#     ["Tuesday", ["Conference"]]
+# ]
+
+# Use the append method to add a new event to the list of events for Monday.
+# Move an event to a different day (e.g., move the second event from Monday to Tuesday).
+# Use a conditional statement to check if there are more than 3 events scheduled on any day. Print "Busy day"
+# if true, otherwise print "Manageable day."
 
 
+# ----------------------------------------------
 
-# Remove List Items
-# Loop Lists
-# List Comprehension
-# Sort Lists
-# Copy Lists
-# Join Lists
-# List Methods
-# List Exercises
+# 3) Create a 2-dimensional list representing seats in a hall
+# (e.g., 5 rows and 4 columns). Initialize all seats as "Available"
+
+# Use the append method to add a new row of seats.
+# Use the insert method to insert a new seat in a specific row (e.g., insert a new seat into the third row).
+# Use a conditional statement to check if the first row is fully occupied.
+# Print "Row is full" if true, otherwise print "Seats available."
