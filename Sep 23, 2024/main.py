@@ -79,4 +79,11 @@ print(combine_to_list)
 
 
 
-# While loop
+# Practice Question # 2
+# You are given a list of book titles with inconsistent formatting.
+# Your goal is to clean up these titles by ensuring that:
+#
+# The first letter of each word is capitalized.
+# The remaining letters of each word are lowercase.
+# Words like "a", "an", "the", "and", "in", "of", and "to" should remain
+# lowercase unless they are the first or last word in the title.
