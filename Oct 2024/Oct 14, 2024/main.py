@@ -211,11 +211,10 @@ product_list = [
 # 1 2 3 4 5 -> 120
 
 # initial value of the variable
-sum = 0
-result = 0
+result = 1
 for i in range(5):
     number = int(input("Enter number: "))
-    result = number
+    result = result * number
 print(result)
 
 
