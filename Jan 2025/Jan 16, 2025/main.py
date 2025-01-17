@@ -1,11 +1,21 @@
 
 
 names = [
-        {"first": [{}], "second": "farooq"},
+        {"first": "umar", "second": "farooq"},
         {"second":"farooq", "first":"umar"}
 ]
 
+for index, value in enumerate(names):
+        print(index)
+        print(value["first"])
+
+
 # names = ["umar", "farooq"]
+#
+# if "umar" in names:
+#         print()
+# else:
+#         print()
 
 print(names)
 
@@ -23,6 +33,14 @@ print(names)
 names.append("Umar")
 
 print(names)
+
+
+name = {"second":78, "first":"james"}
+
+if "second" in name:
+        print()
+
+print(name["second"])
 
 
 
