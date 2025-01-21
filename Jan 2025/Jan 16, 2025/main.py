@@ -43,4 +43,35 @@ if "second" in name:
 print(name["second"])
 
 
+tasks = [
+        {"status": "completed", "task": "desc", "priority": "low"},
+        {"status":"in progress", "task":"desc1", "priority": "low"},
+        {"status": "in progress", "task": "desc", "priority": "medium"},
+]
+
+# 2 conditions
+
+# status
+
+# 1. 1) completed 2) in progress
+# 2. 1) not completed 2) completed
+# 3. 1) completed 2) completed
+# 4) 1) in progress 2) in progress
+
+a = 2
+b = 4
+
+numbers = [1,2,3,4]
+
+# 1)
+temp = numbers[1]
+numbers[1] = numbers[2]
+numbers[2] = temp
+
+# 2)
+numbers[1], numbers[2] = numbers[2], numbers[1]
+
+
+
+
 
