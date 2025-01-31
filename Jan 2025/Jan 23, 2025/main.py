@@ -2,7 +2,7 @@
 
 # Bubble sort
 
-# Finding the largest number and placing it in the last location in ach iteration
+# Finding the largest number and placing it in the last location in each iteration
 #
 # numbers = [5, 1, 2, 7, 3, 4, 3]
 #
@@ -24,6 +24,7 @@
 # Finding the smallest number and we'll be placing it in the iteration location
 
 numbers = [5, 3, 2, 7, 3, 1, 4, 3]
+# After first iteration: numbers = [1,3,2,7,3,5,4,3]
 
 for j in range(len(numbers)):
     smallest_index = j
