@@ -2,7 +2,7 @@
 ############################################################################################################
 
 # Function
-# Function is a piece of code which stored i memoory and can be used simple by calling its name.
+# Function is a piece of code which stored in memoory and can be used simple by calling its name.
 
 # Type of programming
 # - Amateur programming -> can also be included
