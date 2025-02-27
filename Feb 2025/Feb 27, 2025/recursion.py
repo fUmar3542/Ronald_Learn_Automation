@@ -12,4 +12,11 @@
 
 ###########################################################################################
 
+number = 1234
 
+remainder = number % 10   # -> 1230 + 4
+# print(int(number / 10))
+print(number // 10)
+remainder = number % 10   # -> 120 + 3
+
+# print(remainder)
