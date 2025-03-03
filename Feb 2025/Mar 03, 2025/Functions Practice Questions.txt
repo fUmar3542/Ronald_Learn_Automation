@@ -1,0 +1,59 @@
+#########################################################################################
+
+Task:
+Write a function that takes an item name and its price, then prints the information like:
+The price of Apples is $2.5
+
+#########################################################################################
+
+Task:
+Write a function that takes a temperature in Fahrenheit and returns the equivalent Celsius value.
+
+#########################################################################################
+
+Task:
+Write a function calculate_grade(marks) that returns two values:
+The grade based on this scale:
+- 90+ → A
+- 80-89 → B
+- 70-79 → C
+- 60-69 → D
+- Below 60 → F
+A message "Pass" if the grade is A, B, or C, otherwise "Fail".
+
+#########################################################################################
+
+Task:
+Write a function atm_withdrawal(balance, amount) that:
+- Has a nested function is_valid_transaction() to check if the withdrawal is possible.
+- If the transaction is valid, return the updated balance.
+- Otherwise, return "Insufficient Funds".
+
+#########################################################################################
+
+Task:
+Write a function calculate_tax(amount) that returns 10% tax of the amount.
+Then, write another function calculate_total_price(price) that:
+- Calls calculate_tax(price) to get the tax.
+- Returns the final price including tax.
+
+#########################################################################################
+
+Task:
+Write a function apply_discount(price, discount=10) where:
+- The discount is 10% by default.
+- If a different discount is given, apply that instead.
+
+#########################################################################################
+
+Task:
+Write a function average_score(*scores) that calculates and returns the average of all scores passed.
+
+#########################################################################################
+
+Scenario: You are a customer support agent logging customer complaints with details like name, issue, and priority.
+Task:
+Write a function log_complaint(**details) that prints the complaint details in a structured format.
+
+#########################################################################################
+
