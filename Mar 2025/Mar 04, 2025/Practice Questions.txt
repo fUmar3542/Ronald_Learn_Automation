@@ -1,0 +1,72 @@
+#########################################################################################
+
+Task:
+Write a function describe_product(name, price, category) that:
+- Takes three parameters: name (string), price (float), and category (string, default is "General").
+- Prints a message in the format:
+  "The product [name] costs $[price] and belongs to [category] category."
+
+#########################################################################################
+
+Task:
+Write a function calculate_discount(price, discount) that:
+- Takes two parameters: price (float) and discount (float, default is 10%).
+- Calculates the final price after applying the discount.
+- Uses function annotations (type hints) for clarity.
+- Returns the discounted price.
+
+#########################################################################################
+
+Task:
+Write a function that:
+- Accepts multiple numbers as arguments using *args.
+- Iterates through all numbers and calculates their sum.
+- Returns the total sum of the numbers provided.
+- Uses function annotations to specify the type of arguments and return value.
+
+#########################################################################################
+
+Task:
+Write a function that:
+- Accepts any number of named arguments using **kwargs.
+- Iterates through all key-value pairs and prints them in a structured format.
+
+#########################################################################################
+
+Task:
+Write a function outer_function() that:
+- Contains a nested function inner_function().
+- The inner function prints "Hello from the inner function!".
+- Calls the inner function inside outer_function().
+
+#########################################################################################
+
+Task:
+Write a recursive function that:
+- Prints numbers from n down to 1.
+- Calls itself with n - 1.
+
+#########################################################################################
+
+Task:
+Write a recursive function that:
+- Computes the sum of numbers from 1 to n.
+
+#########################################################################################
+
+Task:
+Write a recursive function that:
+- Computes the product of numbers from 1 to n.
+
+#########################################################################################
+
+Task:
+Write a recursive function that:
+- Takes an integer n as input.
+- Returns the factorial of the given number.
+- Uses recursion to compute the factorial.
+- Includes a base case to prevent infinite recursion (factorial of 0 is 1).
+- Demonstrates the concept of recursion and how functions can call themselves.
+
+#########################################################################################
+
