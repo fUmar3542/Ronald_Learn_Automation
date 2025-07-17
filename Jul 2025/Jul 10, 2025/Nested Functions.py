@@ -148,6 +148,14 @@ def validate_and_mark(data):
         for x in data:
             print(x)
 
+    def run():
+        for student in data:
+            validate()
+            assign()
+        output()
+
+    run()
+
 
 school1 = [
     {"name": "Alice", "marks": 85},
