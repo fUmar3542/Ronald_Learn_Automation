@@ -1,0 +1,87 @@
+
+Practice Question: Student Management System (Using .txt Files)
+
+You are asked to build a Student Management System that allows the user to add, view, search, update, and delete student records.
+The system should store all student data inside a students.txt file.
+
+Requirements
+
+- Data Format
+Each student record should be stored in a .txt file in the following format (comma-separated):
+RollNo, Name, Age, Grade
+
+
+Example:
+101, Ali Khan, 20, A
+102, Sara Ahmed, 19, B
+
+
+Functionalities to Implement
+- Add Student
+Ask the user to input RollNo, Name, Age, and Grade, then save it in students.txt.
+Make sure the RollNo is unique.
+
+- View All Students
+Read all data from students.txt and display it in a tabular format.
+
+- Search Student by RollNo
+Ask the user for RollNo and display the student details if found.
+
+- Update Student Record
+Search for a student by RollNo, then allow the user to update Name, Age, or Grade.
+Save the updated data back into the file.
+
+- Delete Student Record
+Remove a student by RollNo and update the file.
+
+Exit Program
+
+Menu System (Console UI)
+The program should keep showing a menu until the user chooses to exit:
+
+===== Student Management System =====
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Exit
+Enter your choice:
+
+
+Example Run
+===== Student Management System =====
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Exit
+Enter your choice: 1
+Enter Roll No: 101
+Enter Name: Ali Khan
+Enter Age: 20
+Enter Grade: A
+Student added successfully!
+
+Enter your choice: 2
+RollNo   Name        Age   Grade
+101      Ali Khan    20    A
+
+Enter your choice: 3
+Enter Roll No to search: 101
+Found: 101, Ali Khan, 20, A
+
+Enter your choice: 4
+Enter Roll No to update: 101
+Enter New Name: Ali Rehman
+Enter New Age: 21
+Enter New Grade: A+
+Record Updated!
+
+Enter your choice: 5
+Enter Roll No to delete: 101
+Student deleted successfully!
+
+Enter your choice: 6
+Exiting Program...
