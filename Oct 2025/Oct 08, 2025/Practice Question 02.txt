@@ -1,0 +1,61 @@
+
+Practice Question: Library Management System (CSV Based)
+
+Problem Statement:
+You are required to build a Library Management System using Python. The system will keep track of books available in the library and books
+issued by students. The data should be stored in CSV files, and the program should provide a menu-driven interface for the user.
+
+Requirements:
+
+1. Store Data in CSV Files
+Use two CSV files:
+books.csv → Stores book details.
+issued_books.csv → Stores details of issued books.
+
+2. Books Data Format (in books.csv)
+Each book record should be stored in the following format:
+book_id,title,author,available_copies
+
+Example:
+101,Python Basics,John Smith,5
+102,Data Science with Python,Jane Doe,2
+
+3. Issued Books Data Format (in issued_books.csv)
+Each issued record should be stored in the following format:
+book_id,student_name,issue_date
+
+Example:
+101,Ali,2025-08-27
+102,Sara,2025-08-26
+
+4. Menu Options
+The system should provide a menu like this:
+- Add a new book
+- View all books
+- Issue a book
+- View issued books
+- Return a book
+- Exit
+
+5. Functional Requirements
+
+- Add a new book
+Ask user for book ID, title, author, and number of available copies.
+Store in books.csv.
+
+- View all books
+Display the contents of books.csv in a readable format.
+
+- Issue a book
+Ask for student name and book ID.
+If available copies > 0 → reduce by 1 and record issue in issued_books.csv with today’s date.
+Otherwise, show message: “Book not available.”
+
+- View issued books
+Read and display issued_books.csv.
+
+- Return a book
+Ask for book ID and student name.
+
+- Remove the record from issued_books.csv.
+Increase available copies in books.csv.
